@@ -5,6 +5,7 @@ import "reset-css";
 import LoadMore from './pages/LoadMore/LoadMore';
 import Layout from './components/Layout/Layout';
 import  Pagination  from './pages/Pagination/Pagination';
+import InfinitScroll from './pages/InfinitScroll/InfinitScroll';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
 	<Route path='/' element={<Layout/>}>
 		<Route index element={<LoadMore/>}/>
 		<Route path='pagination' element={<Pagination/>}/>
+		<Route path='infinitscroll' element={<InfinitScroll/>}/>
+
 		
 	</Route>
 </Routes>

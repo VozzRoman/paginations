@@ -8,8 +8,11 @@ const Layout = () => {
 				<li style={{marginRight:"15px"}}>
 					<Link to="/">Load more</Link>
 				</li>
-				<li>
+				<li style={{marginRight:"15px"}}>
 					<Link to="/pagination">Pagination</Link>
+				</li>
+				<li>
+					<Link to="/infinitscroll">Infinit scroll</Link>
 				</li>
 			</ul>
 		</header>
